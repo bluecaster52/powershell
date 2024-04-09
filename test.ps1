@@ -1,3 +1,4 @@
 write-output "Hello!"
-New-Item -ItemType File -Name $home\filename.txt
+cd $home
+New-Item -ItemType File -Name filename.txt
 pause
