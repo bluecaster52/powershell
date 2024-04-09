@@ -21,7 +21,7 @@ set-mousesettings -ClickLockDelay 110
 set-mousesettings -CursorSize 500
 pause
 # Change windows theme
-# start "" "C:\Windows\Resources\Ease of Access Themes\hcwhite.theme"
-start "" "C:\Windows\Resources\Ease of Access Themes\hcwhite.theme" & timeout /t 3 & taskkill /im "systemsettings.exe" /
+start "" "C:\Windows\Resources\Ease of Access Themes\hcwhite.theme"
+# start "" "C:\Windows\Resources\Ease of Access Themes\hcwhite.theme" & timeout /t 3 & taskkill /im "systemsettings.exe" /
 
 pause
