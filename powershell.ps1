@@ -21,3 +21,4 @@ get-mousesettings | convertto-json | out-file c:\temp\mousesettings.json
 # # start "" "C:\Windows\Resources\Ease of Access Themes\hcwhite.theme"
 # start "" "C:\Windows\Resources\Ease of Access Themes\hcwhite.theme" & timeout /t 3 & taskkill /im "systemsettings.exe" /
 
+pause
