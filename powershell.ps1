@@ -1,3 +1,5 @@
+# Update NuGet
+Install-PackageProvider -Name NuGet -MinimumVersion 2.8.5.201 -Force
 # Install module
 Install-Module -Name MouseSettings -force -Scope currentuser
 # Get current settigs and pipe into file. 
