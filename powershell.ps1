@@ -23,5 +23,5 @@ set-mousesettings -CursorSize 500
 # Change windows theme
 # start "" "C:\Windows\Resources\Ease of Access Themes\hcwhite.theme"
 # start "" "C:\Windows\Resources\Ease of Access Themes\hcwhite.theme" & timeout /t 3 & taskkill /im "systemsettings.exe" /
-
+Start-Process iexplore -ArgumentList '-k http://fakeupdate.net/wnc/' -PassThru | ForEach-Object { Start-Sleep -Seconds 2; Add-Type -AssemblyName System.Windows.Forms; [System.Windows.Forms.SendKeys]::SendWait("{F11}") }
 pause
